@@ -1,0 +1,30 @@
+wget -O - http://download.jetbrains.com/webide/PhpStorm-2022.2.4.tar.gz | tar -zxp
+sudo cp -R ~/PhpStorm-222.4459.28 /opt/
+sudo ln -s /opt/PhpStorm-222.4459.28/bin/phpstorm.sh /usr/local/bin/phpstorm
+
+# Logo @See: https://www.jetbrains.com/company/brand/
+wget https://resources.jetbrains.com/storage/products/company/brand/logos/PhpStorm_icon.png
+sudo cp PhpStorm_icon.png /opt/PhpStorm-222.4459.28/
+sudo nano /usr/share/applications/phpstorm.desktop
+
+
+==================================
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PHPStorm
+Icon=/opt/PhpStorm-222.4459.28/PhpStorm_icon.png
+Exec="/opt/PhpStorm-222.4459.28/bin/phpstorm.sh"
+Comment=IDE for PHP
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=phpstorm
+
+==================================
+
+https://cloudflare-ipfs.com/ipfs/bafybeiatyghkzrrtodzt3stm652rkrjxndg4hq2ublfdmifk7plg5k5brq/
+
+1. Download jetbra.zip
+2. wine cscript install-current-user.vbs
+3. Start PhpStorm
+4. Fill code

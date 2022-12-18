@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   version="1.1"
+   id="svg2078"
+   sodipodi:docname="dropboxstatus-x.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2080"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="11.084746"
+     inkscape:cy="12.050847"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2076">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2199" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+.ColorScheme-Text { 
+    color:#d1d5e9;
+}
+      </style>
+  </defs>
+  <g
+     transform="translate(39.256021,-8.5761957)"
+     id="g2076">
+    <path
+       d="m -31.541745,11.576196 -5.714276,3.461542 4.285725,2.769224 5.714271,-3.461527 z m 4.28572,2.769239 5.71428,3.461527 4.285724,-2.769224 -5.714278,-3.461542 z m 5.71428,3.461527 -5.71428,3.461537 4.285726,2.769246 5.714278,-3.461557 z m -5.71428,3.461537 -5.714271,-3.461537 -4.285725,2.769226 5.714276,3.461557 z m 0,1.663164 -4.260595,2.753001 -1.453676,-0.881603 v 0.200116 1.246692 l 5.725431,3.326327 5.70312,-3.31552 v -1.24396 -0.213655 l -1.453671,0.881603 z"
+       style="enable-background:new;stroke-width:1.31263;fill-opacity:1;fill:currentColor;"
+       class="ColorScheme-Text"
+       id="path58-7" />
+    <path
+       style="color:#da4453;fill:currentColor;fill-opacity:1;stroke:none"
+       d="m -24.256021,21.576196 c -0.554019,0 -1,0.446 -1,1 v 6 c 0,0.5541 0.445981,1 1,1 h 6 c 0.554019,0 1,-0.4459 1,-1 v -6 c 0,-0.554 -0.445981,-1 -1,-1 z"
+       id="path8-2" />
+    <path
+       style="fill:#ffffff"
+       d="m -23.256021,22.576196 -1,1 2,2 -2,2 1,1 2,-2 2,2 1,-1 -2,-2 2,-2 -1,-1 -2,2 z"
+       id="path10-9" />
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   version="1.1"
+   id="svg1091"
+   sodipodi:docname="dropboxstatus-idle.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1093"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="-1.9830509"
+     inkscape:cy="12.050847"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1091">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1269" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+.ColorScheme-Text { 
+    color:#d1d5e9;
+}
+</style>
+  </defs>
+  <path
+     d="M 7.7142835,3 2,6.4615379 6.2857224,9.230766 11.999998,5.7692351 Z M 11.999998,5.7692351 17.714276,9.230766 22,6.4615379 16.285724,3 Z M 17.714276,9.230766 11.999998,12.692304 16.285724,15.46155 22,11.999993 Z M 11.999998,12.692304 6.2857224,9.230766 2,11.999993 7.7142835,15.46155 Z m 0,1.663164 -4.2605905,2.752997 -1.4536851,-0.881596 v 0.20011 1.246692 L 12.011158,21 17.714276,17.684477 v -1.243954 -0.213654 l -1.453668,0.881596 z"
+     style="fill:currentColor;fill-opacity:1;stroke-width:1.31263;enable-background:new"
+     id="path58-7"
+     class="ColorScheme-Text" />
+  <g
+     transform="translate(2,1)"
+     id="g1089-7">
+    <path
+       style="color:#27ae60;fill:currentColor;fill-opacity:1;stroke:none"
+       d="m 16,12 c -2.216,0 -4,1.784 -4,4 0,2.216 1.784,4 4,4 2.216,0 4,-1.784 4,-4 0,-2.216 -1.784,-4 -4,-4 z"
+       id="path8-5" />
+    <path
+       style="opacity:1;fill:#ffffff"
+       d="m 18,14 -3,3 -1,-1 -1,1 1,1 1,1 4,-4 z"
+       id="path10-3" />
+  </g>
+</svg>

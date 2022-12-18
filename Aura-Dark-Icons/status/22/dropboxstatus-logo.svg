@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   version="1.1"
+   id="svg1887"
+   sodipodi:docname="dropboxstatus-logo.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1889"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="1.6271186"
+     inkscape:cy="12.050847"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1887">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2040" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+.ColorScheme-Text { 
+    color:#d1d5e9;
+}
+      </style>
+  </defs>
+  <path
+     d="M 7.714277,3 2,6.461541 6.285723,9.2307679 11.999995,5.7692359 Z m 4.285718,2.7692359 5.714283,3.461532 L 22,6.461541 16.285719,3 Z m 5.714283,3.461532 -5.714283,3.4615371 4.285724,2.76924 L 22,11.999991 Z M 11.999995,12.692305 6.285723,9.2307679 2,11.999991 7.714277,15.461545 Z m 0,1.66316 -4.260592,2.753007 -1.45368,-0.881612 v 0.200124 1.246693 L 12.011156,21 17.714278,17.684486 V 16.440514 16.22686 l -1.453674,0.881612 z"
+     style="enable-background:new;stroke-width:1.31264;fill-opacity:1;fill:currentColor;"
+     class="ColorScheme-Text"
+     id="path58-7" />
+</svg>
