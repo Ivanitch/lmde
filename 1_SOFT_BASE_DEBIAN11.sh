@@ -1,6 +1,6 @@
 # Основные пакеты
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install mc htop net-tools neofetch ufw -y
+sudo apt install hardinfo mc htop net-tools neofetch ufw -y
 sudo apt install git curl wget -y
 
 sudo ufw enable
