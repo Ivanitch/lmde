@@ -1,0 +1,24 @@
+sudo dpkg-reconfigure locales
+1) Вибираем (пробел) всё с ru_RU.UTF-8 и en_US.UTF-8  => enter
+2) Вибираем en_US.UTF-8 => enter
+3) Перезапускаем рабочий стол
+В окне жмём 'Update Names'
+Теперь вся система (включая директории) на английском
+
+
+sudo dpkg-reconfigure locales
+1) Ок
+2) ru_RU.UTF-8
+3) Перезапускаем рабочий стол
+В окне жмём отмечаем галочку "Не задавать больше этот вопрос" и "Сохранить старые имена"
+
+Старые директории (на русском) можно удалить
+
+cat ~/.config/user-dirs.dirs 
+Должны быть на английском
+
+
+cat ~/.config/user-dirs.locale
+Если файла нет, то:
+nano ~/.config/user-dirs.locale
+en_US
