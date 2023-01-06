@@ -1,1 +1,1 @@
-sudo apt install arc-linux -y
+sudo apt install arc-theme -y
