@@ -1,39 +1,41 @@
-wget -O - http://download.jetbrains.com/webide/PhpStorm-2023.2.1.tar.gz | tar -zxp
-sudo cp -R ~/PhpStorm-232.9559.64 /opt/
-sudo ln -s /opt/PhpStorm-232.9559.64/bin/phpstorm.sh /usr/local/bin/phpstorm
+📌 UPDATE: 2025-03-28
 
-# Logo @See: https://www.jetbrains.com/company/brand/
+➡️ cd ~/Jetbrains
+wget -O - https://download.jetbrains.com/webide/PhpStorm-2024.1.7.tar.gz | tar -zxp
+sudo cp -R ~/Jetbrains/PhpStorm-241.19416.23 /opt/phpstorm
+sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
+
+➡️ # Logo @See: https://www.jetbrains.com/company/brand/
 wget https://resources.jetbrains.com/storage/products/company/brand/logos/PhpStorm_icon.png
-sudo cp PhpStorm_icon.png /opt/PhpStorm-232.9559.64/
-sudo nano /usr/share/applications/phpstorm.desktop
+sudo cp PhpStorm_icon.png /opt/phpstorm/
+
+➡️ sudo nano /usr/share/applications/phpstorm.desktop
 ==================================
 [Desktop Entry]
 Version=1.0
 Type=Application
 Name=PHPStorm
-Icon=/opt/PhpStorm-232.9559.64/PhpStorm_icon.png
-Exec="/opt/PhpStorm-232.9559.64/bin/phpstorm.sh"
+Icon=/opt/phpstorm/PhpStorm_icon.png
+Exec="/opt/phpstorm/bin/phpstorm.sh"
 Comment=IDE for PHP
 Categories=Development;IDE;
 Terminal=false
 StartupWMClass=phpstorm
-
 ==================================
 
-1) Скачать и распаковать архив отсюда:
-https://cloudflare-ipfs.com/ipfs/bafybeiatyghkzrrtodzt3stm652rkrjxndg4hq2ublfdmifk7plg5k5brq/
+➡️ Активация 
+1️⃣ Здесь https://3.jetbra.in/ найти подходящий сервер, перейти по ссылке и скачать архив, распаковать его.
 
-2) Запустить файл
+2️⃣ Запустить файл
 sh jetbra/scripts/install.sh
 Сообщение "done. you'd better log off first!"
 
-3) Ищем PhpStorm на странице https://cloudflare-ipfs.com/ipfs/bafybeiatyghkzrrtodzt3stm652rkrjxndg4hq2ublfdmifk7plg5k5brq/
+3️⃣ Ищем PhpStorm
 - Копируем код
 - Запускаем PhpStorm
 - Вставляем код в поле ввода кода при активации
 - Применяем
 
-4) reboot
-
-
-
+4️⃣ reboot
+-------
+LK57VMVACTAYXFP-eyJsaWNlbnNlSWQiOiJMSzU3Vk1WQUNUQVlYRlAiLCJsaWNlbnNlZU5hbWUiOiJtZW5vcmFoIHBhcmFwZXQiLCJsaWNlbnNlZVR5cGUiOiJQRVJTT05BTCIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiIiLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IlBDV01QIiwiZmFsbGJhY2tEYXRlIjoiMjAyNi0wOS0xNCIsInBhaWRVcFRvIjoiMjAyNi0wOS0xNCIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQUyIsImZhbGxiYWNrRGF0ZSI6IjIwMjYtMDktMTQiLCJwYWlkVXBUbyI6IjIwMjYtMDktMTQiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IlBTSSIsImZhbGxiYWNrRGF0ZSI6IjIwMjYtMDktMTQiLCJwYWlkVXBUbyI6IjIwMjYtMDktMTQiLCJleHRlbmRlZCI6dHJ1ZX1dLCJtZXRhZGF0YSI6IjAyMjAyNDA3MDJQU0FYMDAwMDA1WCIsImhhc2giOiIxMjM0NTY3OC8wOTIwNDIzMTY5IiwiZ3JhY2VQZXJpb2REYXlzIjo3LCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsInRyaWFsIjpmYWxzZSwiYWlBbGxvd2VkIjp0cnVlfQ==-giMzZfCCESsBnJddcEgB017IbEg9bfmvITIA+KzajF26fvSBLHtN5qGuPNtAFuB1hPoRvAb4Xqj8rSrIfD0sDxF2ZwS4rkTsqbVRFz70y5+j1yFg7L2Z0g6pw5RNt2fkaYJ2s2T6522tWGcNKEQYDEOaH4JftAB3b66ht7kymV+fdNsD3ffa0TZUke+GfK0wcrJxUtePCUHQV3DsbKxLPERLLoGp19si57cDrZNZwMEUPDphDW5nesd0SAWgYEQSx2CN/0CJOZE9wCvyHETmpBShyOt5Lgq02Ve9jIfn/ARTFEeFXtbVrYSbTOARabhJ9duWKs+v2CiwcuEKLV9mrg==-MIIETDCCAjSgAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTIwMTAxOTA5MDU1M1oXDTIyMTAyMTA5MDU1M1owHzEdMBsGA1UEAwwUcHJvZDJ5LWZyb20tMjAyMDEwMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCUlaUFc1wf+CfY9wzFWEL2euKQ5nswqb57V8QZG7d7RoR6rwYUIXseTOAFq210oMEe++LCjzKDuqwDfsyhgDNTgZBPAaC4vUU2oy+XR+Fq8nBixWIsH668HeOnRK6RRhsr0rJzRB95aZ3EAPzBuQ2qPaNGm17pAX0Rd6MPRgjp75IWwI9eA6aMEdPQEVN7uyOtM5zSsjoj79Lbu1fjShOnQZuJcsV8tqnayeFkNzv2LTOlofU/Tbx502Ro073gGjoeRzNvrynAP03pL486P3KCAyiNPhDs2z8/COMrxRlZW5mfzo0xsK0dQGNH3UoG/9RVwHG4eS8LFpMTR9oetHZBAgMBAAGjgZkwgZYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUJNoRIpb1hUHAk0foMSNM9MCEAv8wSAYDVR0jBEEwP4AUo562SGdCEjZBvW3gubSgUouX8bOhHKQaMBgxFjAUBgNVBAMMDUpldFByb2ZpbGUgQ0GCCQDSbLGDsoN54TATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggIBABKaDfYJk51mtYwUFK8xqhiZaYPd30TlmCmSAaGJ0eBpvkVeqA2jGYhAQRqFiAlFC63JKvWvRZO1iRuWCEfUMkdqQ9VQPXziE/BlsOIgrL6RlJfuFcEZ8TK3syIfIGQZNCxYhLLUuet2HE6LJYPQ5c0jH4kDooRpcVZ4rBxNwddpctUO2te9UU5/FjhioZQsPvd92qOTsV+8Cyl2fvNhNKD1Uu9ff5AkVIQn4JU23ozdB/R5oUlebwaTE6WZNBs+TA/qPj+5/we9NH71WRB0hqUoLI2AKKyiPw++FtN4Su1vsdDlrAzDj9ILjpjJKA1ImuVcG329/WTYIKysZ1CWK3zATg9BeCUPAV1pQy8ToXOq+RSYen6winZ2OO93eyHv2Iw5kbn1dqfBw1BuTE29V2FJKicJSu8iEOpfoafwJISXmz1wnnWL3V/0NxTulfWsXugOoLfv0ZIBP1xH9kmf22jjQ2JiHhQZP7ZDsreRrOeIQ/c4yR8IQvMLfC0WKQqrHu5ZzXTH4NO3CwGWSlTY74kE91zXB5mwWAx1jig+UXYc2w4RkVhy0//lOmVya/PEepuuTTI4+UJwC7qbVlh5zfhj8oTNUXgN0AOc+Q0/WFPl1aw5VV/VrO8FCoB15lFVlpKaQ1Yh+DVU8ke+rt9Th0BCHXe0uZOEmH0nOnH/0onD
